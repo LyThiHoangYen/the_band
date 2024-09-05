@@ -1,0 +1,73 @@
+để bắt đầu làm một web site:
+1. phân tích 
+2. dựng base
+3. xây dựng từng phần theo phân tích 
+4. hoàn thiện
+
+1.  phân tích
+web: https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+Những thành phần thường gặp trên giao diện web 
+- header(đầu trang)
+- banner(hình ảnh nằm trên web, quảng cáo)
+- navigation(điều hướng)
+- breadcrumb(thanh chỉ ra là chúng ta đang ở đâu)
+- sidebar(một thanh thường ở một phía ở màn hình, thường là menu, nevigation phụ)
+- slider(là màn nội dung hình ảnh hoặc chữ và trượt được)
+- footer(chân trang)
+- content(nội dung chính)
+
+phân tích giao diện web theband
+- header
+- slider
+- container(chứa content)
+- content
+  + about (about)
+  + tour
+  + contact
+  + image
+- footer
+onepage: trang giới thiệu
+
+2. tạo project base
+- tạo index.html
+- tạo assets/css/style.css
+- img
+
+3. xây dựng css cơ bản
+- header css
+- tự đặt ra những câu hỏi sau để làm 
+    + vị trí
+    + kích thước (wi và hight)
+      (khi làm lại trang web khác, vào inpect-vào trình duyệt thấy )
+    + màu sắc 
+    + kiểu dáng chữ
+- từ ngoài vào trong 
+từ trên xuống dưới
+từ tổng quan đến chi tiết
+- thuộc tính display để ẩn và hiện(block là hiện, none là ẩn)
+
+
+
+Note:
+1. #ten = class="tên"
+2. tô đen ctrl d sửa cùng lúc
+3.  chọn điểm giống nhau chọn cùng lúc bằng cách
+  tô đen id ctrl d
+  c2. ctrl shift L rồi bấm nút sang phải rồi sau đó bấm alt và shift + nut sang phai
+4. nếu muốn tạo navigation cho header thì dùng câu sau sau đó tab để tạo ra 5 thẻ con li có a và ul là thẻ id nav 
+ul#nav>li*5>a
+-> 
+        <div id="header">
+            <ul id="nav">
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+5. chọn icon lên search themifi icon hoặc font awesomeicons
+
+
+
+
+

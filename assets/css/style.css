@@ -1,0 +1,190 @@
+/*reset css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav, .subnav{
+    list-style-type: none;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    /* display: inline-block; */
+    position: relative;
+}
+/*thẻ con trực tiếp dùng>*/
+#nav > li > a{
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav >li:hover >a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    top: 100%;/*lấy chính thẻ cha*/
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);/*bóng đổ search gg w3 để biết css boxshadow property*/
+
+}
+
+/*
+vì giống hover ở thẻ na lihover nên để trên phía trên chung luôn
+#nav .subnav li:hover a{
+    color: #000;
+    background-color: #ccc;
+} */
+
+#nav .subnav a{
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+
+#header .search-btn{
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#slider{
+    /* min-height: 500px; /*chiều cao tối thiểu là 500*/
+    /*background-color: #333; */
+
+}
+
+#content{
+
+}
+
+#footer{
+
+}
+
+/*
+/*reset css
+*{
+    /*viết tắt emmet
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* để k cần phải tính toán kích thước khi có padd và mar
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    /*tac dụng lên tất cả chữ trên web
+}
+
+/*  + vị trí
+    + kích thước (wi và hight)
+      (khi làm lại trang web khác, vào inpect-vào trình duyệt thấy )
+    + màu sắc 
+    + kiểu dáng chữ
+
+/*
+từ ngoài vào trong 
+từ trên xuống dưới
+từ tổng quan đến chi tiết
+#main{
+
+}
+
+
+#header{
+    height: 46px;
+    background-color: #000;
+}
+
+#nav{
+
+}
+
+#nav li{
+    /*để nó k nằm trên cùng một hàng dọc-> thành hàng ngang
+    display: inline-block;
+}
+
+#nav li a{
+    color: #fff;
+    text-decoration: none;/*bỏ gạch chân
+    line-height: 46px;
+    padding: 0 24px;
+    /*sửa thuộc tính để thẻ a nó cao bằng li
+    display: inline-block;
+}
+
+/*hover thẻ li là con nav, con của li được up những thuộc tính mới sau
+#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+    /*sau khi up trên thì thẻ a kích thước nhỏ hơn thẻ li
+    - đổi màu thẻ li hoặc tăng kích thước thẻ a
+    bằng cách inspect rồi hover thẻ a và display: inline-block vào thẻ a 
+}
+
+#nav .subnav{
+    display: none;/*ẩn đi
+}
+
+
+
+#slider{
+
+}
+
+#content{
+
+}
+
+#footer{
+
+}
+
+*/
